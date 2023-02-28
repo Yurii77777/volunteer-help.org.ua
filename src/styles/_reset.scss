@@ -1,0 +1,63 @@
+/**
+ * Made by Yurets in UA!
+ * Copyright (c) GPL License <2021-2023> <Yurii Andriiko>
+ * Telegram @Yurets7777 E-mail: yuretshome@gmail.com
+ * "Роби добре, та тільки добре! А можеш? - Роби краще!"
+ */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    border: none;
+    background: transparent;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    border: none;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

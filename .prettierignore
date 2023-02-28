@@ -1,0 +1,11 @@
+# Ignore folders:
+build
+coverage
+src/assets/*
+
+# Ignore files:
+*.html
+*.svg
+*.jpg
+*.png
+.DS_Store
