@@ -1,9 +1,3 @@
-/**
- * Made by Yurets in UA!
- * Copyright (c) GPL License <2021-2023> <Yurii Andriiko>
- * Telegram @Yurets7777 E-mail: yuretshome@gmail.com
- * "Роби добре, та тільки добре! А можеш? - Роби краще!"
- */
 import { Route, Routes } from 'react-router-dom';
 import { Box } from '@mui/material/';
 

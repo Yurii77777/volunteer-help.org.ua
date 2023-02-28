@@ -9,3 +9,9 @@
 ### Welcome to help us
 
 https://volunteer-help.org.ua/
+
+### How to start
+
+- `git clone`;
+- `npm i`;
+- `npm start`
