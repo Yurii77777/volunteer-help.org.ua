@@ -33,7 +33,7 @@ export const Languages = () => {
           onChange={(e) => handleChangeLanguage(e)}
           sx={theme.menuItem}>
           {languagesItems.map(({ id, title, value }) => (
-            <MenuItem key={id} value={value}>
+            <MenuItem key={id} value={value} sx={theme.selectItem}>
               {title}
             </MenuItem>
           ))}

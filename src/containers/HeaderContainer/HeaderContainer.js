@@ -9,7 +9,7 @@ import { theme } from './HeaderContainerTheme';
 
 export const HeaderContainer = () => {
   return (
-    <AppBar sx={theme.haeder}>
+    <AppBar sx={theme.header}>
       <LogoComponent />
       <EmblemComponent />
 
