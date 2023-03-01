@@ -2,7 +2,7 @@ export const theme = {
   image: {
     display: {
       xs: 'none',
-      md: 'block',
+      sm: 'block',
     },
     maxWidth: '200px',
     marginRight: '15px',
