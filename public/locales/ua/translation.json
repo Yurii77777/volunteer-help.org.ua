@@ -1,0 +1,34 @@
+{
+  "title": {
+    "email": "Відправити e-mail",
+    "form": "Відправити Google форму",
+    "international_number": "Міжнародний телефонний код міста Київ",
+    "number_kyivstar": "Номер мобільного телефону Kyivstar",
+    "number_life": "Номер мобільного телефону Life"
+  },
+  "top_banner": {
+    "contacts": {
+      "subtitle": "Сайт для тих, хто допомагає Україні",
+      "title": "ПОРТАЛ ГУМАНІТАРНОЇ ДОПОМОГИ",
+      "contacts_title": "ГАРЯЧА ЛІНІЯ"
+    }
+  },
+    "helps": {
+      "card_report": {
+        "title": "ПОВІДОМИТИ",
+        "description": "про бажання надати гуманітарну допомогу"
+      },
+      "card_register": {
+        "title": "ОФОРМИТИ",
+        "description": "запит на отримання гуманітарної допомоги"
+      },
+      "card_want": {
+        "title": "ХОЧУ",
+        "description": "до вашої команди волонтерів"
+      },
+      "buttons": {
+        "connect": "Зв'язатися з нами",
+        "form_register": "Заповнити форму"
+      }
+    }
+}
