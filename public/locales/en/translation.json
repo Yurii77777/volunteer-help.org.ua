@@ -1,0 +1,34 @@
+{
+  "title": {
+    "email": "Send e-mail",
+    "form": "Send Google Form",
+    "international_number": "The international telephone code of the city of Kyiv",
+    "number_kyivstar": "Kyivstar mobile phone number",
+    "number_life": "Life mobile phone number"
+  },
+  "top_banner": {
+    "contacts": {
+      "subtitle": "Website for those who want to help Ukraine",
+      "title": "HUMANITARIAN AID WEBSITE",
+      "contacts_title": "HOTLINE"
+    }
+  },
+    "helps": {
+      "card_report": {
+        "title": "INFORM",
+        "description": "about willingness to provide humanitarian aid"
+      },
+      "card_register": {
+        "title": "MAKE",
+        "description": "a request for getting a humanitarian aid"
+      },
+      "card_want": {
+        "title": "I WANT",
+        "description": "to join your team of volunteers"
+      },
+      "buttons": {
+        "connect": "Contact us",
+        "form_register": "Complete the form"
+      }
+    }
+}

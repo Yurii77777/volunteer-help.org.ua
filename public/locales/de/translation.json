@@ -1,0 +1,34 @@
+{
+  "title": {
+    "email": "E-Mail senden",
+    "form": "Senden Sie ein Google-Formular",
+    "international_number": "Die internationale Telefonvorwahl der Stadt Kiew",
+    "number_kyivstar": "Kyivstar Handynummer",
+    "number_life": "Life Handynummer"
+  },
+  "top_banner": {
+    "contacts": {
+      "subtitle": "Website für diejenigen, die der Ukraine helfen wollen",
+      "title": "WEBSITE DER HUMANITÄREN HILFE UND UNTERSTÜTZUNG",
+      "contacts_title": "HOTLINE"
+    }
+  },
+    "helps": {
+      "card_report": {
+        "title": "INFORMIEREN",
+        "description": "über Pläne zur Bereitstellung humanitärer Hilfe"
+      },
+      "card_register": {
+        "title": "Stellen Sie einen",
+        "description": "Antrag auf humanitäre Hilfe"
+      },
+      "card_want": {
+        "title": "ICH MÖCHTE",
+        "description": "Ihrem Team von Freiwilligen beitreten"
+      },
+      "buttons": {
+        "connect": "Rufen Sie uns an",
+        "form_register": "Füllen sie das Formular aus"
+      }
+    }
+}
