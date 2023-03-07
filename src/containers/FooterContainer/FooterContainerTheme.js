@@ -61,4 +61,14 @@ export const theme = {
     flexDirection: 'column',
     alignItems: 'center',
   },
+  copyright: {
+    display: 'flex',
+    gap: 2,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: '1.2rem',
+    padding: '15px 0',
+    color: '#9e9e9e',
+  },
 };

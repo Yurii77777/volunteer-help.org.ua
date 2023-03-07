@@ -43,6 +43,12 @@ export const FooterContainer = () => {
           </Box>
         </Box>
       </Box>
+      <Box sx={theme.copyright}>
+        {t('footer.madein')}
+        <Link href="http://yurets.info/" target="_blank" rel="noopener noreferrer">
+          yurets.info
+        </Link>
+      </Box>
     </Box>
   );
 };
