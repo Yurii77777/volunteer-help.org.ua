@@ -30,5 +30,8 @@
         "connect": "Contact us",
         "form_register": "Complete the form"
       }
+    },
+    "footer": {
+      "thanks": "Thank you for your support!"
     }
 }

@@ -30,5 +30,8 @@
         "connect": "Rufen Sie uns an",
         "form_register": "Füllen sie das Formular aus"
       }
+    },
+    "footer": {
+      "thanks": "Danke für Ihre Unterstützung!"
     }
 }
