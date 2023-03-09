@@ -4,7 +4,6 @@ export const theme = {
       xs: 'none',
       md: 'block',
     },
-    height: '65px',
-    marginRight: 'auto',
+    height: '100%',
   },
 };
