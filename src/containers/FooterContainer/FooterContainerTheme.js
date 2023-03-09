@@ -55,6 +55,9 @@ export const theme = {
     fontSize: '1.5rem',
     margin: '20px 10px',
   },
+  emailLink: {
+    color: '#000',
+  },
   logos: {
     width: '25%',
     display: 'flex',
