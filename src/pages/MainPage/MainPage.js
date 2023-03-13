@@ -1,4 +1,5 @@
 import { Box } from '@mui/material/';
+import ActivityComponent from '../../components/ActivityComponent/ActivityComponent';
 import PT from 'prop-types';
 
 import { TopBannerComponent } from '../../components/TopBannerComponent/TopBannerComponent';
@@ -9,6 +10,7 @@ export const MainPage = () => {
   return (
     <>
       <TopBannerComponent />
+      <ActivityComponent />
     </>
   );
 };

@@ -30,5 +30,15 @@
         "connect": "Contact us",
         "form_register": "Complete the form"
       }
-    }
+    },
+  "slider": {
+    "title": "Activities of our organization",
+    "countries": {
+      "Poland": "Poland",
+      "Slovakia": "Slovakia"
+    },
+    "learn_more": "Learn more",
+    "img_alt_Poland": "Volunteering in Poland",
+    "img_alt_Slovakia": "Volunteering in Slovakia"
+  }
 }
