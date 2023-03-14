@@ -53,5 +53,15 @@
       "promote": "to promote the creation of a positive image and reputation of volunteering among the general public, investors, management of organizations, public authorities of Ukraine, etc.;",
       "assistance": "providing assistance to citizens affected by emergencies of man-made or natural nature during a special period, legal regimes of state of emergency or martial law, implementation of measures to ensure national security and defense, refugees, internally displaced persons. "
     }
+  },
+  "slider": {
+    "title": "Activities of our organization",
+    "countries": {
+      "Poland": "Poland",
+      "Slovakia": "Slovakia"
+    },
+    "learn_more": "Learn more",
+    "img_alt_Poland": "Volunteering in Poland",
+    "img_alt_Slovakia": "Volunteering in Slovakia"
   }
 }

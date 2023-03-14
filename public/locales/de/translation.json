@@ -53,5 +53,15 @@
       "promote": "Förderung der Schaffung eines positiven Images und Ansehens der Freiwilligenarbeit in der Öffentlichkeit, bei Investoren, Leitern von Organisationen, Behörden der Ukraine usw .;",
       "assistance": "Unterstützung von Bürgern, die während einer besonderen Zeit von menschengemachten oder natürlichen Notlagen, rechtlichen Ausnahmezustands- oder Kriegsrechtssystemen, Umsetzung von Maßnahmen zur Gewährleistung der nationalen Sicherheit und Verteidigung, Flüchtlingen, Binnenvertriebenen betroffen sind. "
     }
+  },
+  "slider": {
+    "title": "Aktivitäten unserer Organisation",
+    "countries": {
+      "Poland": "Polen",
+      "Slovakia": "Slowakei"
+    },
+    "learn_more": "Lern mehr",
+    "img_alt_Poland": "Freiwilligenhilfe in der Polen",
+    "img_alt_Slovakia": "Freiwilligenhilfe in der Slowakei"
   }
 }
