@@ -1,11 +1,11 @@
-import { ActivitiesComponent } from './../../components/ActivitiesComponent/ActivitiesComponent';
+import { ActivityListComponent } from './../../components/ActivityListComponent/ActivityListComponent';
 import { TopBannerComponent } from '../../components/TopBannerComponent/TopBannerComponent';
 
 export const MainPage = () => {
   return (
     <>
       <TopBannerComponent />
-      <ActivitiesComponent />
+      <ActivityListComponent />
     </>
   );
 };
