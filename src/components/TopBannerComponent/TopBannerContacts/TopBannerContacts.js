@@ -1,15 +1,16 @@
-import { Typography, Box } from '@mui/material';
+import { Box, Link, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import { Phone } from '@mui/icons-material';
+
+import { contacts } from '../../../constants/constants';
 import theme from './TopBannerContactTheme';
-import links from '../../../constants';
-import Link from '@mui/material/Link';
 
 const TopBannerContacts = () => {
   const { t } = useTranslation();
   return (
     <Box>
-      <Box sx={theme.wrapper}>        
-        <Typography sx={theme.subtitle} variant="body1">
+      <Box sx={theme.wrapper}>
+        <Typography sx={theme.subtitle} variant="h3">
           {t('top_banner.contacts.subtitle')}
         </Typography>
       </Box>
@@ -17,17 +18,14 @@ const TopBannerContacts = () => {
         {t('top_banner.contacts.title')}
       </Typography>
       <Box sx={theme.contacts_wrapper}>
-        <Typography variant="body1" sx={theme.contacts_title}>
+        <Typography variant="h4" sx={theme.contacts_title}>
           {t('top_banner.contacts.contacts_title')}
         </Typography>
         <Box>
-          {links.map(({ id, tel, title }) => {
+          {contacts.map(({ id, tel, title }) => {
             return (
-              <Link
-                sx={id === 1 ? theme.contacts_phone_ua : theme.contacts_phone_word}
-                href={`tel:${tel}`}
-                title={t(`title.${title}`)}
-                key={id}>
+              <Link sx={theme.contacts_phone} href={`tel:${tel}`} title={t(`title.${title}`)} key={id}>
+                <Phone />
                 {tel}
               </Link>
             );

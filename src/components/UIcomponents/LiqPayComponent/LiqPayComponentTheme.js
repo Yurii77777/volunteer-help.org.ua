@@ -1,5 +1,5 @@
 export const theme = {
-  logoLink: {
+  imgLink: {
     margin: '0 15px 0 15px',
   },
 };

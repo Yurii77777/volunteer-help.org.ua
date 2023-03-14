@@ -18,9 +18,4 @@ export const theme = {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
   },
-  container: {
-    maxWidth: '1100px',
-    height: '55%',
-    padding: 'calc(0px + 1.5625vw) 15px 0',
-  },
 };

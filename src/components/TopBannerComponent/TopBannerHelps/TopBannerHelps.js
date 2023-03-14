@@ -1,38 +1,47 @@
-import Box from '@mui/material/Box';
-import theme from './TopBannerHelpsTheme';
-import CardComponent from '../../UIcomponents/Card/CardComponent';
-import ButtonComponent from '../../UIcomponents/Button/ButtonComponent';
-import CardActions from '@mui/material/CardActions';
-import data from './index';
 import { useTranslation } from 'react-i18next';
+import { Button, Box, CardActions, Card, CardContent, Container, Typography } from '@mui/material';
+import { actionList } from '../../../constants/constants';
+import theme from './TopBannerHelpsTheme';
 
 const TopBannerHelps = () => {
   const { t } = useTranslation();
   return (
-    <Box sx={theme.info}>
-      {data.map(({ id, title, description, formRef, category }) => {
-        return (
-          <CardComponent
-            title={t(`helps.${category}.${title}`)}
-            description={t(`helps.${category}.${description}`)}
-            key={id}>
-            <CardActions sx={theme.card_button}>
-              <ButtonComponent
-                text={t('helps.buttons.connect')}
-                href="mailto:helping.children.ua@gmail.com"
-                title={t('title.email')}
-              />
-              <ButtonComponent
-                text={t('helps.buttons.form_register')}
-                href={formRef}
-                title={t('title.form')}
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </CardActions>
-          </CardComponent>
-        );
-      })}
+    <Box sx={theme.wrapper}>
+      <Container sx={theme.info}>
+        {actionList.map(({ id, title, description, formRef, category }) => {
+          return (
+            <Card key={id} sx={theme.card}>
+              <CardContent sx={theme.content}>
+                <Typography variant="h5" sx={theme.title}>
+                  {t(`helps.${category}.${title}`)}
+                </Typography>
+                <Typography variant="subtitle1" sx={theme.subtitle}>
+                  {t(`helps.${category}.${description}`)}
+                </Typography>
+              </CardContent>
+
+              <CardActions sx={theme.actions}>
+                <Button
+                  variant="contained"
+                  sx={theme.actionButton}
+                  href="mailto:helping.children.ua@gmail.com"
+                  title={t('title.email')}>
+                  {t('helps.buttons.connect')}
+                </Button>
+                <Button
+                  variant="contained"
+                  sx={theme.actionButton}
+                  href={formRef}
+                  title={t('title.form')}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {t('helps.buttons.form_register')}
+                </Button>
+              </CardActions>
+            </Card>
+          );
+        })}
+      </Container>
     </Box>
   );
 };

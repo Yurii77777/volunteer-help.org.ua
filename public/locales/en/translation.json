@@ -13,26 +13,45 @@
       "contacts_title": "HOTLINE"
     }
   },
-    "helps": {
-      "card_report": {
-        "title": "INFORM",
-        "description": "about willingness to provide humanitarian aid"
-      },
-      "card_register": {
-        "title": "MAKE",
-        "description": "a request for getting a humanitarian aid"
-      },
-      "card_want": {
-        "title": "I WANT",
-        "description": "to join your team of volunteers"
-      },
-      "buttons": {
-        "connect": "Contact us",
-        "form_register": "Complete the form"
-      }
+  "helps": {
+    "card_report": {
+      "title": "INFORM",
+      "description": "about willingness to provide humanitarian aid"
     },
-    "footer": {
-      "thanks": "Thank you for your support!",
-      "madein": "Developed in Ukraine"
+    "card_register": {
+      "title": "MAKE",
+      "description": "a request for getting a humanitarian aid"
+    },
+    "card_want": {
+      "title": "I WANT",
+      "description": "to join your team of volunteers"
+    },
+    "buttons": {
+      "connect": "Contact us",
+      "form_register": "Complete the form"
     }
+  },
+  "footer": {
+    "thanks": "Thank you for your support!",
+    "madein": "Developed in Ukraine"
+  },
+  "activities": {
+    "title": "Основними напрямами діяльності Організації є:",
+    "list": {
+      "gather": "collection of new and used children's literature (books, magazines, educational literature) in Ukraine, delivery outside the country and distribution through friendly volunteer organizations to refugee children from Ukraine;",
+      "print": "printing of new books for children in the Ukrainian language, and transfer of these books to children of refugees from Ukraine who are currently abroad;",
+      "buy": "purchase of new books from warehouses and bookstores for children in the Ukrainian language, and transfer of these books to children of refugees from Ukraine who are currently abroad;",
+      "publishing": "publishing activities of children's literature;",
+      "exchange": "creation of an exchange fund of books in places of temporary residence of Ukrainians abroad, where every Ukrainian and child will be able to exchange the read book for another;",
+      "logistics": "creation of own logistical transport of the delivery of books abroad, namely delivery to small places where refugees from Ukraine are currently;",
+      "accounting": "creating a record of applications from refugees for assistance they need, and if possible to fulfill them;",
+      "support": "Psychological support of a book in the native Ukrainian language will be exactly the anchor that young children can cling to and have as part of their usual environment, their homeland;",
+      "provide": "provide books for each of the young children-migrants;",
+      "help": " targeted assistance to all necessary affected migrants outside the country and in Ukraine;",
+      "points": " creation of assistance points on the territory of Ukraine and abroad for citizens of Ukraine affected by hostilities;",
+      "support_army": "promoting the country's defense capability and mobilization readiness, protecting the population in emergency situations in peacetime and wartime;",
+      "promote": "to promote the creation of a positive image and reputation of volunteering among the general public, investors, management of organizations, public authorities of Ukraine, etc.;",
+      "assistance": "providing assistance to citizens affected by emergencies of man-made or natural nature during a special period, legal regimes of state of emergency or martial law, implementation of measures to ensure national security and defense, refugees, internally displaced persons. "
+    }
+  }
 }

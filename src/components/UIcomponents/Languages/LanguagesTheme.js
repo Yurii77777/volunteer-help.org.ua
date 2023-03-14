@@ -7,12 +7,12 @@ export const theme = {
   },
   menuItem: {
     fontSize: '1.5rem',
-    color: '#fd0',
-    marginRight: '15px',
-    backgroundColor: '#0F6292',
+    color: 'secondary.main',
+    mr: 2,
+    backgroundColor: 'primary.main',
   },
   selectItem: {
     fontSize: '1.5rem',
-    color: 'black',
+    color: 'text.primary',
   },
 };

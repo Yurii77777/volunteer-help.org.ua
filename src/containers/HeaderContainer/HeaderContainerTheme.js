@@ -1,14 +1,10 @@
 export const theme = {
   header: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    height: '80px',
-    backgroundColor: 'inherit',
-    position: 'static',
+    p: 1,
+    bgcolor: 'text.primary',
+    position: 'relative',
   },
-  logo: {
+  companyName: {
     display: 'flex',
     flexDirection: 'row',
     marginRight: 'auto',

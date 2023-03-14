@@ -5,7 +5,7 @@ const theme = {
     display: 'flex',
     justifyContent: 'space-between',
     flexDirection: 'column',
-    position: 'relative',
+    position: 'relative',    
   },
   title: {
     fontWeight: 800,
