@@ -1,9 +1,9 @@
 export const theme = {
   logoLink: {
-    margin: '0 15px 0 15px',    
+    margin: '0 16px',    
   },
   logoLinkInv: {
-    margin: '0 15px 0 15px',
+    margin: '0 16px',
     filter: 'invert(1)',    
   },
 };

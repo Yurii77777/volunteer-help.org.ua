@@ -17,4 +17,16 @@ export const theme = createTheme({
       fontSize: '1.3rem',
     },
   },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          '&:hover': {
+            backgroundColor: '#efc822',
+            color: '#000000',
+          },
+        },
+      },
+    },
+  },
 });

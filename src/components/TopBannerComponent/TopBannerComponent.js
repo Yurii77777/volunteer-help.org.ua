@@ -1,7 +1,7 @@
 import { Box, Container } from '@mui/material/';
 import { theme } from './TopBannerComponentTheme';
-import TopBannerContacts from './TopBannerContacts/TopBannerContacts';
-import TopBannerHelps from './TopBannerHelps/TopBannerHelps';
+import { TopBannerContacts } from './TopBannerContacts/TopBannerContacts';
+import { TopBannerHelps } from './TopBannerHelps/TopBannerHelps';
 
 export const TopBannerComponent = () => {
   return (
@@ -9,7 +9,11 @@ export const TopBannerComponent = () => {
       <Container>
         <TopBannerContacts />
       </Container>
-      <TopBannerHelps />
+      <Box sx={theme.wrapper}>
+        <Container>
+          <TopBannerHelps />
+        </Container>
+      </Box>
     </Box>
   );
 };

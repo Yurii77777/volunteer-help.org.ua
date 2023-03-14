@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Box, Container, Typography } from '@mui/material';
 import { activities } from '../../constants/constants';
 
-export function ActivityListComponent() {
+export const ActivityListComponent = () => {
   const { t } = useTranslation();
   return (
     <Container>
@@ -22,4 +22,4 @@ export function ActivityListComponent() {
       </Box>
     </Container>
   );
-}
+};

@@ -43,8 +43,10 @@ export const theme = {
   emailLink: {
     color: '#000',
   },
-  companyName: {
-    width: '25%',
+  footerBox: {
+    width: {
+      md: '30%',
+    },
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -54,7 +56,7 @@ export const theme = {
     gap: 2,
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: 'center',    
+    alignItems: 'center',
     p: 2,
     color: 'text.secondary',
   },

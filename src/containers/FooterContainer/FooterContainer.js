@@ -14,7 +14,7 @@ export const FooterContainer = () => {
     <Box component="footer" sx={theme.footer}>
       <Container>
         <Grid container sx={theme.container}>
-          <Grid item>
+          <Grid item container sx={theme.footerBox}>
             {contacts.map(({ id, tel, title }) => {
               return (
                 <Link sx={theme.phone} href={`tel:${tel}`} title={t(`title.${title}`)} key={id}>
@@ -24,7 +24,8 @@ export const FooterContainer = () => {
               );
             })}
           </Grid>
-          <Grid item>
+
+          <Grid item container sx={theme.footerBox}>
             <Typography variant="subtitle1">
               <Box>
                 <Link href="mailto:child.help.book@gmail.com" sx={theme.emailLink}>
@@ -35,7 +36,8 @@ export const FooterContainer = () => {
             </Typography>
             <LiqPayComponent />
           </Grid>
-          <Grid item container sx={theme.companyName}>
+          
+          <Grid item container sx={theme.footerBox}>
             <Grid item>
               <CompanyNameComponent />
             </Grid>
