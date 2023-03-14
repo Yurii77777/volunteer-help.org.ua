@@ -13,26 +13,45 @@
       "contacts_title": "HOTLINE"
     }
   },
-    "helps": {
-      "card_report": {
-        "title": "INFORMIEREN",
-        "description": "über Pläne zur Bereitstellung humanitärer Hilfe"
-      },
-      "card_register": {
-        "title": "Stellen Sie einen",
-        "description": "Antrag auf humanitäre Hilfe"
-      },
-      "card_want": {
-        "title": "ICH MÖCHTE",
-        "description": "Ihrem Team von Freiwilligen beitreten"
-      },
-      "buttons": {
-        "connect": "Rufen Sie uns an",
-        "form_register": "Füllen sie das Formular aus"
-      }
+  "helps": {
+    "card_report": {
+      "title": "INFORMIEREN",
+      "description": "über Pläne zur Bereitstellung humanitärer Hilfe"
     },
-    "footer": {
-      "thanks": "Danke für Ihre Unterstützung!",
-      "madein": "Entwickelt in der Ukraine"
+    "card_register": {
+      "title": "Stellen Sie einen",
+      "description": "Antrag auf humanitäre Hilfe"
+    },
+    "card_want": {
+      "title": "ICH MÖCHTE",
+      "description": "Ihrem Team von Freiwilligen beitreten"
+    },
+    "buttons": {
+      "connect": "Rufen Sie uns an",
+      "form_register": "Füllen sie das Formular aus"
     }
+  },
+  "footer": {
+    "thanks": "Danke für Ihre Unterstützung!",
+    "madein": "Entwickelt in der Ukraine"
+  },
+  "activities": {
+    "title": "Die wichtigsten Aktivitäten der Organisation ist:",
+    "list": {
+      "gather": "Sammlung neuer und gebrauchter Kinderliteratur (Bücher, Zeitschriften, Lehrliteratur) in der Ukraine, Lieferung ins Ausland und Verteilung durch befreundete Freiwilligenorganisationen an Flüchtlingskinder aus der Ukraine;",
+      "print": "Druck neuer Bücher für Kinder in ukrainischer Sprache und Weitergabe dieser Bücher an Kinder von Flüchtlingen aus der Ukraine, die sich derzeit im Ausland aufhalten;",
+      "buy": "Ankauf neuer Bücher in ukrainischer Sprache aus Lagern und Buchhandlungen für Kinder und Weitergabe dieser Bücher an Flüchtlingskinder aus der Ukraine, die sich derzeit im Ausland befinden;",
+      "publishing": "Verlagstätigkeiten von Kinderliteratur;",
+      "exchange": "Schaffung eines Austauschfonds für Bücher an Orten des vorübergehenden Aufenthalts von Ukrainern im Ausland, wo jeder Ukrainer und jedes Kind das gelesene Buch gegen ein anderes eintauschen können;",
+      "logistics": "Schaffung eines eigenen logistischen Transports für die Lieferung von Büchern ins Ausland, nämlich Lieferung an kleine Orte, an denen sich derzeit Flüchtlinge aus der Ukraine aufhalten;",
+      "accounting": "Anträge von Flüchtlingen auf Hilfebedürftigkeit zu erfassen und nach Möglichkeit zu erfüllen;",
+      "support": "psychologische Unterstützung für ein Buch in der ukrainischen Muttersprache wird genau der Anker sein, an dem sich kleine Kinder festhalten und als Teil der vertrauten Umgebung, ihrer Heimat, haben können;",
+      "provide": "Bereitstellung von Büchern für alle kleinen Migrantenkinder;",
+      "help": "gezielte Hilfe für alle notwendigen betroffenen Migranten außerhalb des Landes und in der Ukraine;",
+      "points": "Schaffung von Hilfsstellen auf dem Territorium der Ukraine und im Ausland für Bürger der Ukraine, die von Feindseligkeiten betroffen sind;",
+      "support_army": "Förderung der Verteidigungsfähigkeit und Mobilmachungsbereitschaft des Landes, Schutz der Bevölkerung in Friedens- und Kriegszeiten;",
+      "promote": "Förderung der Schaffung eines positiven Images und Ansehens der Freiwilligenarbeit in der Öffentlichkeit, bei Investoren, Leitern von Organisationen, Behörden der Ukraine usw .;",
+      "assistance": "Unterstützung von Bürgern, die während einer besonderen Zeit von menschengemachten oder natürlichen Notlagen, rechtlichen Ausnahmezustands- oder Kriegsrechtssystemen, Umsetzung von Maßnahmen zur Gewährleistung der nationalen Sicherheit und Verteidigung, Flüchtlingen, Binnenvertriebenen betroffen sind. "
+    }
+  }
 }
