@@ -31,6 +31,16 @@
         "form_register": "Füllen sie das Formular aus"
       }
     },
+  "slider": {
+    "title": "Aktivitäten unserer Organisation",
+    "countries": {
+      "Poland": "Polen",
+      "Slovakia": "Slowakei"
+    },
+    "learn_more": "Lern mehr",
+    "img_alt_Poland": "Freiwilligenhilfe in der Polen",
+    "img_alt_Slovakia": "Freiwilligenhilfe in der Slowakei"
+  },
     "footer": {
       "thanks": "Danke für Ihre Unterstützung!",
       "madein": "Entwickelt in der Ukraine"
