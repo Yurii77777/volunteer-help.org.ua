@@ -1,6 +1,6 @@
 import { Box } from '@mui/material/';
 
-import emblem from '../../../assets/images/emblem_color-ua.webp';
+import emblem from '../../../assets/images/co-logo.svg';
 
 import { theme } from './EmblemComponentTheme';
 

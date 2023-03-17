@@ -8,6 +8,12 @@ export const theme = {
     backgroundColor: 'inherit',
     position: 'static',
   },
+  logo: {
+    display: 'flex',
+    flexDirection: 'row',
+    marginRight: 'auto',
+    height: '65px',
+  },
   langContainer: {
     display: 'flex',
     flexDirection: 'row',

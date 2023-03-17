@@ -1,5 +1,4 @@
 import { Typography, Box } from '@mui/material';
-import trident from '../../../assets/images/trident.webp';
 import { useTranslation } from 'react-i18next';
 import theme from './TopBannerContactTheme';
 import links from '../../../constants';
@@ -9,8 +8,7 @@ const TopBannerContacts = () => {
   const { t } = useTranslation();
   return (
     <Box>
-      <Box sx={theme.wrapper}>
-        <Box component="img" alt="trident logo" src={trident} sx={theme.subtitle_logo} />
+      <Box sx={theme.wrapper}>        
         <Typography sx={theme.subtitle} variant="body1">
           {t('top_banner.contacts.subtitle')}
         </Typography>

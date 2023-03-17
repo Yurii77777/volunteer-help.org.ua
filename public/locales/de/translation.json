@@ -40,5 +40,9 @@
     "learn_more": "Lern mehr",
     "img_alt_Poland": "Freiwilligenhilfe in der Polen",
     "img_alt_Slovakia": "Freiwilligenhilfe in der Slowakei"
-  }
+  },
+    "footer": {
+      "thanks": "Danke für Ihre Unterstützung!",
+      "madein": "Entwickelt in der Ukraine"
+    }
 }

@@ -40,5 +40,9 @@
     "learn_more": "Learn more",
     "img_alt_Poland": "Volunteering in Poland",
     "img_alt_Slovakia": "Volunteering in Slovakia"
-  }
+  },
+    "footer": {
+      "thanks": "Thank you for your support!",
+      "madein": "Developed in Ukraine"
+    }
 }
