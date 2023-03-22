@@ -3,11 +3,14 @@ import ActivityComponent from '../../components/ActivityComponent/ActivityCompon
 
 import { TopBannerComponent } from '../../components/TopBannerComponent/TopBannerComponent';
 
+import { ShortDescription } from '../../components/ShortDescription/ShortDescription';
+
 export const MainPage = () => {
   return (
     <>
       <TopBannerComponent />
       <ActivityComponent />
+      <ShortDescription />
       <ActivityListComponent />
     </>
   );
