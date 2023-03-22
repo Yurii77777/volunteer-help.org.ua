@@ -63,5 +63,12 @@
   "footer": {
     "thanks": "Thank you for your support!",
     "madein": "Developed in Ukraine"
+  },
+  "shortDescription": {
+    "titleMainIdea": "The main idea of the Organization is",
+    "descMainIdea": "Providing assistance to affected refugee children from Ukraine; providing assistance to citizens affected by legal regimes of state of emergency or martial law.",
+    "titleGoals": "The main activities of the Organization is:",
+    "descGoals":"Providing access for every Ukrainian child to books  and textbooks for learning in their native language, regardless of their temporary stay. By providing every child with books and literature in Ukrainian we are able to preserve the identity of our nation outside the country. This is extremely important for children, because reading gives a sense of security and stability particularly in stressful situations. We must ensure that Ukrainians in all parts of the world will have the opportunity to save their cultural identity, including teaching their children in Ukrainian. Our main purpose is to provide every child who was forced to go abroad because of the war with their own book written in their native language. The access to Ukrainian books is an extremely important support for our citizens during difficult times of war. Therefore, helping children and their families to get a piece of their home in another country is extremely important. We also offer any necessary assistance to refugee children from Ukraine, because they are the future of our state."
   }
+
 }
