@@ -31,10 +31,6 @@
       "form_register": "Complete the form"
     }
   },
-  "footer": {
-    "thanks": "Thank you for your support!",
-    "madein": "Developed in Ukraine"
-  },
   "activities": {
     "title": "The main activities of the Organization is:",
     "list": {
@@ -63,5 +59,9 @@
     "learn_more": "Learn more",
     "img_alt_Poland": "Volunteering in Poland",
     "img_alt_Slovakia": "Volunteering in Slovakia"
+  },
+  "footer": {
+    "thanks": "Thank you for your support!",
+    "madein": "Developed in Ukraine"
   }
 }
