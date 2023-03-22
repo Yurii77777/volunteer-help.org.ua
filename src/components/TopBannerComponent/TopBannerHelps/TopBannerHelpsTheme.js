@@ -1,31 +1,37 @@
-const theme = {
+export const theme = {
   info: {
     display: 'flex',
-    width: '100%',
     flexDirection: {
-      md: 'row',
       xs: 'column',
+      md: 'row',
     },
     justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-    height: '45%',
-    gap: '10px 20px',
-    padding: '20px 15px',
-    '&::before': {
-      content: '""',
-      backgroundColor: 'rgba(255,255,255,.2)',
-      position: 'absolute',
-      bottom: 0,
-      left: 0,
-      right: 0,
-      top: 0,
-    },
+    alignItems: 'stretch',
+    gap: 3,
+    py: 3,
   },
-  card_button: {
-    padding: '16px',
-    justifyContent: 'flex-start',
+  card: {
+    flex: {
+      md: '1 1 0px',
+    },
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
+  content: {
+    p: 2,
+  },
+  title: {
+    textTransform: 'uppercase',
+    fontWeight: '800',
+  },
+  subtitle: {
+    fontWeight: '600',
+  },
+  actions: {
+    p: 2,
+    gap: 1,
+    justifyContent: 'center',
+    alignItems: 'stretch',
   },
 };
-
-export default theme;

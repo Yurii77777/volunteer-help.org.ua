@@ -1,5 +1,3 @@
-import phoneIco from '../../assets/images/icons/icon-phone.svg';
-
 export const theme = {
   footer: {
     width: '100vw',
@@ -7,12 +5,9 @@ export const theme = {
     backgroundColor: '#fff',
   },
   container: {
-    display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    maxWidth: '1100px',
-    margin: '0 auto',
-    padding: '20px 15px',
+    p: 3,
     flexDirection: {
       md: 'row',
       xs: 'column',
@@ -25,22 +20,12 @@ export const theme = {
   },
   phone: {
     display: 'block',
-    whiteSpace: 'nowrap',
     fontSize: '1.5rem',
-    color: '#000',
+    whiteSpace: 'nowrap',
     cursor: 'pointer',
+    color: 'text.primary',
     position: 'relative',
-    paddingLeft: '40px',
     textDecoration: 'none',
-    '&::before': {
-      content: '""',
-      backgroundImage: `url(${phoneIco})`,
-      width: '24px',
-      height: '30px',
-      backgroundRepeat: 'no-repeat',
-      position: 'absolute',
-      left: '0px',
-    },
     '&:hover': {
       opacity: 0.7,
     },
@@ -58,8 +43,10 @@ export const theme = {
   emailLink: {
     color: '#000',
   },
-  logos: {
-    width: '25%',
+  footerBox: {
+    width: {
+      md: '30%',
+    },
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -70,8 +57,7 @@ export const theme = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    fontSize: '1.2rem',
-    padding: '15px 0',
-    color: '#9e9e9e',
+    p: 2,
+    color: 'text.secondary',
   },
 };

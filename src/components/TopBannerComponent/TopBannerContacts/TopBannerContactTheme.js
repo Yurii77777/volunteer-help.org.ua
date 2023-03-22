@@ -1,32 +1,20 @@
-import uaImage from '../../../assets/images/icons/ua.svg';
-import wordImage from '../../../assets/images/icons/word.svg';
-
-const theme = {
-  wrapper: {
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection: 'row',
-    maxWidth: '80%',
-    margin: '15px 0',
-  },
+export const theme = {
   subtitle: {
-    fontSize: 'calc(1.8rem + 10 * (100vw / 1920))',
+    maxWidth: '80%',    
+    fontSize: 'clamp(1.5rem, calc(1rem + 1.5vw), 2.5rem)',
     lineHeight: 1.2,
     fontWeight: 600,
-    color: '#0069e7',
+    color: 'primary.main',
+    mt: 4,
   },
   title: {
-    fontSize: 'calc(3.2rem + 2.0833333333vw)',
+    fontSize: 'clamp(2rem, calc(2rem + 3vw), 4rem)',
     lineHeight: 1.2,
     fontWeight: 600,
     textTransform: 'uppercase',
-    color: '#fff',
+    color: 'primary.contrastText',
     maxWidth: '80%',
     margin: '5vw 0',
-  },
-  subtitle_logo: {
-    width: '21px',
-    marginRight: '16px',
   },
   contacts_wrapper: {
     display: 'flex',
@@ -34,61 +22,24 @@ const theme = {
       md: 'row',
       xs: 'column',
     },
-    justifyContent: 'flexStart',
-    alignItems: {
-      md: 'center',
-      xs: 'flex-start',
-    },
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    gap: 3,
+    py: 3,
   },
   contacts_title: {
-    fontSize: '2.4rem',
     textTransform: 'uppercase',
     fontWeight: 600,
-    color: '#fd0',
-    margin: '0 5vw 2vw 0',
+    color: 'secondary.main',
+    mt: 3,
   },
-  contacts_phone_ua: {
+  contacts_phone: {
     display: 'block',
-    fontSize: '2rem',
-    color: '#fff',
-    cursor: 'pointer',
-    position: 'relative',
-    paddingLeft: '40px',
+    color: 'primary.contrastText',
+    fontSize: '1.5rem',
     textDecoration: 'none',
-    '&::before': {
-      content: '""',
-      backgroundImage: `url(${uaImage})`,
-      width: '24px',
-      height: '30px',
-      backgroundRepeat: 'no-repeat',
-      position: 'absolute',
-      left: '0px',
-    },
-    '&:hover': {
-      opacity: 0.7,
-    },
-  },
-  contacts_phone_word: {
-    display: 'block',
-    fontSize: '2rem',
-    color: '#fff',
-    cursor: 'pointer',
-    position: 'relative',
-    paddingLeft: '40px',
-    textDecoration: 'none',
-    '&::before': {
-      content: '""',
-      backgroundImage: `url(${wordImage})`,
-      width: '24px',
-      height: '30px',
-      backgroundRepeat: 'no-repeat',
-      position: 'absolute',
-      left: '0px',
-    },
     '&:hover': {
       opacity: 0.7,
     },
   },
 };
-
-export default theme;

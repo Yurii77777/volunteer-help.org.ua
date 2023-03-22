@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Card, CardContent, Typography } from '@mui/material';
-import theme from './CardComponentTheme';
+import { theme } from './CardComponentTheme';
 
 const CardComponent = ({ title, description, children }) => {
   return (

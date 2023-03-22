@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
   wrapper: {
     width: 340,
     height: '200px',
@@ -11,14 +11,12 @@ const theme = {
     fontWeight: 800,
     textTransform: 'uppercase',
     marginBottom: '10px',
-    color: '#1d1d1b',
-    fontSize: '18px',
+    color: 'text.secondary',
+    fontSize: '1.4rem',
   },
   subtitle: {
     fontWeight: 600,
-    color: '#1d1d1b',
-    fontSize: '18px',
+    color: 'text.secondary',
+    fontSize: '1.4rem',
   },
 };
-
-export default theme;

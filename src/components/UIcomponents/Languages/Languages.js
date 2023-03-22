@@ -1,4 +1,4 @@
-import { Box, FormControl, Select, MenuItem } from '@mui/material';
+import { FormControl, Select, MenuItem } from '@mui/material';
 import { i18n } from '../../../i18n';
 
 import { languagesItems } from './languagesItems';
@@ -24,21 +24,19 @@ export const Languages = () => {
   };
 
   return (
-    <Box sx={theme.selectWrapper}>
-      <FormControl fullWidth>
-        <Select
-          labelId="language-select-standard-label"
-          id="language-select-standard"
-          defaultValue={selectedLanguage}
-          onChange={(e) => handleChangeLanguage(e)}
-          sx={theme.menuItem}>
-          {languagesItems.map(({ id, title, value }) => (
-            <MenuItem key={id} value={value} sx={theme.selectItem}>
-              {title}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-    </Box>
+    <FormControl fullWidth>
+      <Select
+        labelId="language-select-standard-label"
+        id="language-select-standard"
+        defaultValue={selectedLanguage}
+        onChange={(e) => handleChangeLanguage(e)}
+        sx={theme.menuItem}>
+        {languagesItems.map(({ id, title, value }) => (
+          <MenuItem key={id} value={value} sx={theme.selectItem}>
+            {title}
+          </MenuItem>
+        ))}
+      </Select>
+    </FormControl>
   );
 };
