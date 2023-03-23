@@ -1,20 +1,20 @@
 export const theme = {
   subtitle: {
     maxWidth: '80%',    
-    fontSize: 'clamp(1.5rem, calc(1rem + 1.5vw), 2.5rem)',
+    fontSize: 'clamp(0.2rem, calc(1rem + 0.5vw), 1.6rem)',
     lineHeight: 1.2,
     fontWeight: 600,
     color: 'primary.main',
     mt: 4,
   },
   title: {
-    fontSize: 'clamp(2rem, calc(2rem + 3vw), 4rem)',
+    fontSize: 'clamp(0.5rem, calc(2rem + 0.5vw), 3.2rem)',
     lineHeight: 1.2,
     fontWeight: 600,
     textTransform: 'uppercase',
     color: 'primary.contrastText',
     maxWidth: '80%',
-    margin: '5vw 0',
+    margin: '3.7vw 0',
   },
   contacts_wrapper: {
     display: 'flex',
@@ -29,6 +29,7 @@ export const theme = {
   },
   contacts_title: {
     textTransform: 'uppercase',
+    fontSize: 'clamp(0.5rem, calc(1rem + 0.5vw), 1.8rem)',
     fontWeight: 600,
     color: 'secondary.main',
     mt: 3,
@@ -36,7 +37,7 @@ export const theme = {
   contacts_phone: {
     display: 'block',
     color: 'primary.contrastText',
-    fontSize: '1.5rem',
+    fontSize: 'clamp(0.8rem, 1vw, 1.5rem)',
     textDecoration: 'none',
     '&:hover': {
       opacity: 0.7,
