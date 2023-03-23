@@ -37,6 +37,7 @@ export const theme = {
   contacts_phone: {
     display: 'block',
     color: 'primary.contrastText',
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
     fontSize: 'clamp(0.8rem, 1vw, 1.5rem)',
     textDecoration: 'none',
     '&:hover': {
