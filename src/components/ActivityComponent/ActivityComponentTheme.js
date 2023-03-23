@@ -12,7 +12,7 @@ const theme = {
     padding: '10px 0',
   },
   title: {
-    fontSize: 'calc(2rem + .5208333333vw)',
+    fontSize: 'calc(1.5rem + .5208333333vw)',
     marginBottom: '3vw',
   },
 };
