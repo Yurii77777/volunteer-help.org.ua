@@ -3,7 +3,6 @@ export const theme = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-around',
-    width: '20%',
 
     border: '1px solid #dee2e6',
     borderRadius: '5px',
