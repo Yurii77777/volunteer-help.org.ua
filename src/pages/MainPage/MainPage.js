@@ -4,6 +4,7 @@ import ActivityComponent from '../../components/ActivityComponent/ActivityCompon
 import { TopBannerComponent } from '../../components/TopBannerComponent/TopBannerComponent';
 
 import { ShortDescription } from '../../components/ShortDescription/ShortDescription';
+import { MapComponent } from '../../components/MapComponent/MapComponent';
 
 export const MainPage = () => {
   return (
@@ -11,6 +12,7 @@ export const MainPage = () => {
       <TopBannerComponent />
       <ActivityComponent />
       <ShortDescription />
+      <MapComponent />
       <ActivityListComponent />
     </>
   );
