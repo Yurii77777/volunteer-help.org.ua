@@ -69,5 +69,15 @@
     "descMainIdea": "Hilfeleistung für betroffene Kinderflüchtlinge aus der Ukraine, Unterstützung von Bürgern, die von Ausnahmezustand oder Kriegsrecht betroffen sind.",
     "titleGoals": "Die Zwecke der Organisation",
     "descGoals":"Bereitstellung von Zugang zu Büchern und Lehrbüchern für jedes ukrainische Kind zum Lernen in seiner Muttersprache, unabhängig von seinem vorübergehenden Aufenthaltsort. Indem wir jedes Kind mit Büchern und Literatur auf Ukrainisch versorgen, können wir die Identität unserer Nation außerhalb des Landes bewahren. Das ist für Kinder enorm wichtig, denn Lesen gibt gerade in Stresssituationen ein Gefühl von Sicherheit und Stabilität. Wir müssen sicherstellen, dass Ukrainer in allen Teilen der Welt die Möglichkeit haben, ihre kulturelle Identität zu bewahren, einschließlich des Unterrichtens ihrer Kinder in Ukrainisch. Unser Hauptziel ist es, jedem Kind, das wegen des Krieges ins Ausland gehen musste, ein eigenes Buch in seiner Muttersprache zur Verfügung zu stellen. Der Zugang zu ukrainischen Büchern ist eine äußerst wichtige Unterstützung für unsere Bürger in schwierigen Kriegszeiten. Daher ist es äußerst wichtig, Kindern und ihren Familien zu helfen, ein Stück Heimat in einem anderen Land zu bekommen. Auch Flüchtlingskindern aus der Ukraine bieten wir jede notwendige Hilfe, denn sie sind die Zukunft unseres Staates."
+  },
+   "mapComponent":{
+    "mapTitle": "Addresses of reception and issuance of humanitarian aid",
+    "mapPoints": {
+      "1":{
+      "street":"55/13 Oleksi Tykhogo (Wyborgskaja) str.",
+      "city": "Kiew",
+      "country":"Ukraine",
+      "service":"empfang und zustellung"
+    }}
   }
 }
