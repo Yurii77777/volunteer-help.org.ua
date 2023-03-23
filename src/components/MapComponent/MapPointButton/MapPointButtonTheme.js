@@ -16,6 +16,9 @@ export const theme = {
     textAlign: 'center',
     wordBreak: 'break-word',
   },
+  list: {
+    listStyle: 'none',
+  },
   text: {
     fontSize: '0.8rem',
     marginBottom: '2px',
