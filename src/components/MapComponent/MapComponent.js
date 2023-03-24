@@ -25,12 +25,12 @@ export const MapComponent = () => {
           {t('mapComponent.mapTitle').toUpperCase()}
         </Typography>
         <Box sx={theme.pointsBox}>
-          {mapPoints.map((point) => (
+          {mapPoints.map(({ id, email, phones }) => (
             <MapPointButton
-              key={point.id}
-              id={point.id}
-              email={point.email}
-              phones={point.phones}
+              key={id}
+              id={id}
+              email={email}
+              phones={phones}
               onClick={handleClickOnMapPoint}
               activePoint={activePoint}
             />
