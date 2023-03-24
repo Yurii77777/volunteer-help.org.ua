@@ -14,7 +14,7 @@ export const theme = {
     textTransform: 'uppercase',
     color: 'primary.contrastText',
     maxWidth: '80%',
-    margin: '3.7vw 0',
+    margin: '3.4vw 0',
   },
   contacts_wrapper: {
     display: 'flex',
@@ -37,8 +37,8 @@ export const theme = {
   contacts_phone: {
     display: 'block',
     color: 'primary.contrastText',
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
-    fontSize: 'clamp(0.8rem, 1vw, 1.5rem)',
+    fontSize: 'clamp(0.8rem, 1.3vw, 1.8rem)',
+    textShadow: '2px 1px 2px #000000',
     textDecoration: 'none',
     '&:hover': {
       opacity: 0.7,
