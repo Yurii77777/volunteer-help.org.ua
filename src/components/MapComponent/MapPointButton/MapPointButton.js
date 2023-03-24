@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, List } from '@mui/material';
 
 import { theme } from './MapPointButtonTheme';
 
@@ -17,12 +18,26 @@ export const MapPointButton = ({ id, email, phones, onClick, activePoint }) => {
         <Typography sx={theme.text}>{t(`mapComponent.mapPoints.${id}.street`)}</Typography>
         <Typography sx={theme.text}>{t(`mapComponent.mapPoints.${id}.service`)}</Typography>
         <Typography sx={theme.text}>{email}</Typography>
-        {phones.map((phone, idx) => (
-          <Typography key={idx + 1} sx={theme.text}>
-            {phone}
-          </Typography>
-        ))}
+        <ul style={theme.list}>
+          {phones.map((phone, idx) => (
+            <li key={idx + 1}>
+              <Typography sx={theme.text}>{phone}</Typography>
+            </li>
+          ))}
+        </ul>
       </Box>
     </Box>
   );
+};
+
+MapPointButton.defaultProps = {
+  onClick: () => {},
+  phones: [],
+};
+MapPointButton.propTypes = {
+  id: PropTypes.number,
+  email: PropTypes.string,
+  phones: PropTypes.array,
+  onClick: PropTypes.func,
+  activePoint: PropTypes.number,
 };
