@@ -79,5 +79,79 @@
       "country":"Ukraine",
       "service":"reception and delivery"
     }}
+  },
+  "wireTransferInfo": {
+    "wireMainTitle": "your help is valuable",
+    "wireTransferTitle": "wire transfer information",
+    "wireTransferFieldsUAH":{
+      "1":{
+        "field": "Recipient's name",
+        "value":"БО МБФ ДОПОМОГА ДІТЯМ"
+    },
+    "2":{
+        "field": "Recipient's code",
+        "value":"44691208"
+    },
+    "3":{
+        "field": "IBAN",
+        "value":"UA683052990000026001030124624"
+    }
+    ,
+    "4":{
+        "field": "Bank name",
+        "value":"АТ КБ «ПриватБанк»"
+    }
+  },
+  "wireTransferFieldsEUR":{
+      "1":{
+        "field": "Recipient's name",
+        "value":"БО МБФ ДОПОМОГА ДІТЯМ"
+    },
+    "2":{
+        "field": "SWIFT",
+        "value":"PBANUA2X"
+    },
+    "3":{
+        "field": "IBAN",
+        "value":"UA633052990000026000040127388"
+    }
+    ,
+    "4":{
+        "field": "Bank name",
+        "value":"АТ КБ «ПриватБанк», вул. Грушевсього, 1-Д, Київ, 01001, Україна"
+    },
+     "5":{
+        "field": "Recipient's address",
+        "value":"03067, Україна, Київ, вул. Олексія Тихого 55/13, офіс 6"
+    }
+  },
+   "correspondentsBanks": "Correspondents Banks",
+   "fieldsCorrespondentsBanks" :{
+     "1":{
+        "field": "Correspondents Bank Account",
+        "value":"400886700401"
+    },
+    "2":{
+        "field": "SWIFT Correspondents Bank",
+        "value":"COBADEFF"
+    },
+    "3":{
+        "field": "Correspondents Bank",
+        "value":"Commerzbank AG, Frankfurt am Main, Germany"
+    }
+    ,
+    "4":{
+        "field": "Correspondents Bank Account",
+        "value":"6231605145"
+    },
+     "5":{
+        "field": "SWIFT Correspondents Bank",
+        "value":"CHASDEFX"
+    },
+    "6":{
+      "field": "Correspondents Bank",
+        "value":"J.P.MORGAN AG, FRANKFURT AM MAIN, GERMANY"
+    }
+   }
   }
 }
