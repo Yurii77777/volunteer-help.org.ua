@@ -9,6 +9,7 @@ export const CompanyNameComponent = ({ invertColor }) => {
   return (
     <Link to="/" title="Go to the main page" style={invertColor ? theme.logoLinkInv : theme.logoLink}>
       <Box
+        sx={theme.nameComponent}
         component="img"
         alt="Логотип ГО Допомога постраждалим дітям з України"
         src={logo}
