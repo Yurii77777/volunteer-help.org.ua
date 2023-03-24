@@ -79,5 +79,79 @@
       "country":"Україна",
       "service":"прийом та видача"
     }}
+  },
+  "wireTransferInfo": {
+    "wireMainTitle": "ваша поміч - цінна",
+    "wireTransferTitle": "ПЛАТІЖНІ РЕКВІЗИТИ",
+    "wireTransferFieldsUAH":{
+      "1":{
+        "field": "Найменування отримувача",
+        "value":"БО МБФ ДОПОМОГА ДІТЯМ"
+    },
+    "2":{
+        "field": "Код одержувача",
+        "value":"44691208"
+    },
+    "3":{
+        "field": "IBAN",
+        "value":"UA683052990000026001030124624"
+    }
+    ,
+    "4":{
+        "field": "Назва банку",
+        "value":"АТ КБ «ПриватБанк»"
+    }
+  },
+      "wireTransferFieldsEUR":{
+      "1":{
+        "field": "Найменування отримувача",
+        "value":"БО МБФ ДОПОМОГА ДІТЯМ"
+    },
+    "2":{
+        "field": "SWIFT",
+        "value":"PBANUA2X"
+    },
+    "3":{
+        "field": "IBAN",
+        "value":"UA633052990000026000040127388"
+    }
+    ,
+    "4":{
+        "field": "Назва банку",
+        "value":"АТ КБ «ПриватБанк», вул. Грушевсього, 1-Д, Київ, 01001, Україна"
+    },
+     "5":{
+        "field": "Адреса отримувача",
+        "value":"03067, Україна, Київ, вул. Олексія Тихого 55/13, офіс 6"
+    }
+  },
+   "correspondentsBanks": "Банки кореспонденти",
+   "fieldsCorrespondentsBanks" :{
+     "1":{
+        "field": "Рахунок у банку-кореспонденті",
+        "value":"400886700401"
+    },
+    "2":{
+        "field": "SWIFT банку-кореспондента",
+        "value":"COBADEFF"
+    },
+    "3":{
+        "field": "Банк-кореспондент",
+        "value":"Commerzbank AG, Frankfurt am Main, Germany"
+    }
+    ,
+    "4":{
+        "field": "Рахунок у банку-кореспонденті",
+        "value":"6231605145"
+    },
+     "5":{
+        "field": "SWIFT банку-кореспондента",
+        "value":"CHASDEFX"
+    },
+    "6":{
+      "field": "Банк-кореспондент",
+        "value":"J.P.MORGAN AG, FRANKFURT AM MAIN, GERMANY"
+    }
+   }
   }
 }
