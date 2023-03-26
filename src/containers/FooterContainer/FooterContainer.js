@@ -36,7 +36,7 @@ export const FooterContainer = () => {
             </Typography>
             <LiqPayComponent />
           </Grid>
-          
+
           <Grid item container sx={theme.footerBox}>
             <Grid item>
               <CompanyNameComponent />
@@ -50,9 +50,9 @@ export const FooterContainer = () => {
 
       <Box sx={theme.copyright}>
         {t('footer.madein')}
-        <Link href="http://yurets.info/" target="_blank" rel="noopener noreferrer">
+        {/* <Link href="http://yurets.info/" target="_blank" rel="noopener noreferrer">
           yurets.info
-        </Link>
+        </Link> */}
       </Box>
     </Box>
   );
