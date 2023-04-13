@@ -4,7 +4,7 @@ import { Box, Container, CssBaseline, ThemeProvider } from '@mui/material/';
 import { HeaderContainer } from '../../containers/HeaderContainer/HeaderContainer';
 import { FooterContainer } from '../../containers/FooterContainer/FooterContainer';
 import { MainPage } from '../../pages/MainPage/MainPage';
-
+import { PhotosActivities } from '../../pages/photosActivities/photosActivities';
 import { theme } from './AppTheme';
 
 export const App = () => {
@@ -17,6 +17,10 @@ export const App = () => {
         <Box component="main">
           <Routes>
             <Route path="/" element={<MainPage />}></Route>
+            {/* <Route path="/photos" element={<PhotosActivities />}></Route> */}
+
+           <Route path="/photos/:itemId" element={<PhotosActivities />}></Route>
+           
           </Routes>
         </Box>
 

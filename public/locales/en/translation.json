@@ -28,7 +28,8 @@
     },
     "buttons": {
       "connect": "Contact us",
-      "form_register": "Complete the form"
+      "form_register": "Complete the form",
+      "main": "To the main page"
     }
   },
   "activities": {
@@ -59,6 +60,10 @@
     "learn_more": "Learn more",
     "img_alt_Poland": "Volunteering in Poland",
     "img_alt_Slovakia": "Volunteering in Slovakia"
+  },
+  "photoActivities": {
+    "titlePl": "Activities of our organization in Poland",
+    "titleSk": "Activities of our organization in Slovakia"
   },
   "footer": {
     "thanks": "Thank you for your support!",
