@@ -21,23 +21,15 @@ const Label = styled(Paper)(({ theme }) => ({
 }));
 
 export const PhotosActivities = () => {
+
   const { t } = useTranslation();
   const location = useLocation();
-  console.log(location);
 
   const [activity, setActivity] = useState([]);
   const [description, setDescription] = useState({});
   const [title, setTitle] = useState({});
   
   useEffect(() => {
-    if (location) {
-      const { title, description, activity } = location;
-      setActivity(activity);
-      setDescription(description);
-      setTitle(title);
-    }
-    console.log(activityData);
-  
     const pageId = +window.location.pathname.match(/\d+/g);
     const currentActivity = activityData.filter(({ id }) => id === pageId);
     const [{ activity, img, title }] = currentActivity;
@@ -46,7 +38,6 @@ export const PhotosActivities = () => {
     setDescription(description);
     setTitle(title);
   }, [location]);
-  console.log(activity);
 
   return (
     <Box sx={theme.container}>
