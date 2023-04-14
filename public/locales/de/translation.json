@@ -28,7 +28,8 @@
     },
     "buttons": {
       "connect": "Rufen Sie uns an",
-      "form_register": "Füllen sie das Formular aus"
+      "form_register": "Füllen sie das Formular aus",
+      "main": "Zur Hauptseite"
     }
   },
   "activities": {
@@ -59,6 +60,10 @@
     "learn_more": "Lern mehr",
     "img_alt_Poland": "Freiwilligenhilfe in der Polen",
     "img_alt_Slovakia": "Freiwilligenhilfe in der Slowakei"
+  },
+  "titleActivities": {
+    "titlePl": "Aktivitäten unserer Organisation in der Polen",
+    "titleSk": "Aktivitäten unserer Organisation in der Slowakei"
   },
   "footer": {
     "thanks": "Danke für Ihre Unterstützung!",

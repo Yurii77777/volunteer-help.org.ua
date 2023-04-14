@@ -1,7 +1,5 @@
 import Carousel from 'react-material-ui-carousel';
-
 import { ActivityItem } from '../ActivityItem/ActivityItem';
-
 import { activityData } from './activityData';
 
 const filterImagesBySliderFlag = (activityData) => {
@@ -28,7 +26,7 @@ export const ActivitySlider = () => {
         },
       }}>
       {sliderImagesData.map(({ id, activity, alt, img: [{ imgSrc: firstImg }, { imgSrc: secondImg }] }) => (
-        <ActivityItem title={activity} firstImg={firstImg} secondImg={secondImg} key={id} alt={alt} />
+        <ActivityItem title={activity} firstImg={firstImg} secondImg={secondImg} key={id} alt={alt} id={id}/>
       ))}
     </Carousel>
   );

@@ -44,4 +44,18 @@ export const theme = {
       transition: '0.5s',
     },
   },
+  btn: {
+    minWidth: '100px',
+    minHeight: '50px',
+    color: 'black',
+    textAlign: 'center',
+    width: '34%',
+    backgroundColor: '#ffdd00',
+    padding: '5px',
+    fontSize: 12,
+    '&:hover': {
+      color: 'white',
+      backgroundColor: '#0069e7',
+    },
+  },
 };

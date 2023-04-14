@@ -1,13 +1,12 @@
-import { Box, Typography, Paper } from '@mui/material';
+import { Box, Typography, Paper, Button } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
-
-import ButtonComponent from '../../UIcomponents/Button/ButtonComponent';
-
 import { theme } from './ActivityItemTheme';
 
-export const ActivityItem = ({ title, firstImg, secondImg, alt }) => {
+export const ActivityItem = ({ title, firstImg, secondImg, alt, id }) => {
   const { t } = useTranslation();
+
   return (
     <Paper sx={theme.paper}>
       <Box sx={theme.container}>
@@ -18,7 +17,12 @@ export const ActivityItem = ({ title, firstImg, secondImg, alt }) => {
           <Typography variant="body" sx={theme.title}>
             {t(`slider.countries.${title}`)}
           </Typography>
-          <ButtonComponent text={t('slider.learn_more')} />
+          <Button
+           sx={theme.btn}
+           component={RouterLink}
+           to={`photos/${id}`}
+           >{t('slider.learn_more')}
+          </Button>
         </Box>
         <Box sx={theme.content}>
           <Box sx={theme.img} component="img" src={secondImg} alt={t(`slider.${alt}`)} />
