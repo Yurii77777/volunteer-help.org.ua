@@ -28,7 +28,7 @@ export const PhotosActivities = () => {
   const [activity, setActivity] = useState([]);
   const [description, setDescription] = useState({});
   const [title, setTitle] = useState({});
-
+  
   useEffect(() => {
     if (location) {
       const { title, description, activity } = location;
@@ -36,10 +36,8 @@ export const PhotosActivities = () => {
       setDescription(description);
       setTitle(title);
     }
-
     console.log(activityData);
-    // console.log(currentLocation);
-
+  
     const pageId = +window.location.pathname.match(/\d+/g);
     const currentActivity = activityData.filter(({ id }) => id === pageId);
     const [{ activity, img, title }] = currentActivity;
@@ -53,7 +51,7 @@ export const PhotosActivities = () => {
   return (
     <Box sx={theme.container}>
       <Box>
-        <Typography sx={theme.title}>{t(`photoActivities.titleSk`)}</Typography>
+        <Typography sx={theme.title}>{t(`titleActivities.${title}`)}</Typography>
         <Typography variant="p" sx={theme.paragraph}></Typography>
       </Box>
       <Masonry sx={theme.contentMasonry}>

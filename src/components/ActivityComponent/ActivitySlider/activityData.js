@@ -4,7 +4,7 @@ export const activityData = [
   {
     id: 0,
     activity: 'Poland',
-    title: 'Activities of our organization in Poland',
+    title: 'titlePl',
     img: [
       {
         id: 0,
@@ -65,7 +65,7 @@ export const activityData = [
   {
     id: 1,
     activity: 'Slovakia',
-    title: 'Activities of our organization in Slovakia',
+    title: 'titleSk',
     img: [
       {
         id: 0,

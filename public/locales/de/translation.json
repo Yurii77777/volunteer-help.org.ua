@@ -1,5 +1,5 @@
 {
-  "": {
+  "title": {
     "email": "E-Mail senden",
     "form": "Senden Sie ein Google-Formular",
     "international_number": "Die internationale Telefonvorwahl der Stadt Kiew",
@@ -61,7 +61,7 @@
     "img_alt_Poland": "Freiwilligenhilfe in der Polen",
     "img_alt_Slovakia": "Freiwilligenhilfe in der Slowakei"
   },
-  "photoActivities": {
+  "titleActivities": {
     "titlePl": "Aktivitäten unserer Organisation in der Polen",
     "titleSk": "Aktivitäten unserer Organisation in der Slowakei"
   },
