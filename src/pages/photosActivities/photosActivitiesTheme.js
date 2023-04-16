@@ -1,22 +1,19 @@
 export const theme = {
-    container: {
+  container: {
     width: '100%',
     minHeight: '829',
     backgroundColor: '#ffffff',
   },
   contentMasonry: {
-    columns: {
-      md: '4',
-      sm: '3',
-      xs: '2',
-    },
-    spacing:'2',
+    spacing: '2',
+    maxWidth: '1000px',
+    margin: '0 auto',
   },
   title: {
     fontSize: 'clamp(0.6rem, calc(1rem + 1.1vw), 2.8rem)',
     color: '#000000',
     textAlign: 'center',
-    margin:'20px 0',
+    margin: '20px 0',
   },
   paragraph: {
     fontSize: '1rem',

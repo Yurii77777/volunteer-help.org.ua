@@ -17,8 +17,7 @@ export const App = () => {
         <Box component="main">
           <Routes>
             <Route path="/" element={<MainPage />}></Route>
-           <Route path="/photos/:itemId" element={<PhotosActivities />}></Route>
-           
+            <Route path="/photos/:id" element={<PhotosActivities />}></Route>
           </Routes>
         </Box>
 

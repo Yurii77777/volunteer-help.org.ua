@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Masonry from '@mui/lab/Masonry';
@@ -21,23 +20,19 @@ const Label = styled(Paper)(({ theme }) => ({
 }));
 
 export const PhotosActivities = () => {
-
   const { t } = useTranslation();
-  const location = useLocation();
 
   const [activity, setActivity] = useState([]);
-  const [description, setDescription] = useState({});
   const [title, setTitle] = useState({});
-  
+
   useEffect(() => {
     const pageId = +window.location.pathname.match(/\d+/g);
     const currentActivity = activityData.filter(({ id }) => id === pageId);
-    const [{ activity, img, title }] = currentActivity;
+    const [{ img, title }] = currentActivity;
 
     setActivity(img);
-    setDescription(description);
     setTitle(title);
-  }, [location]);
+  }, []);
 
   return (
     <Box sx={theme.container}>
@@ -45,7 +40,7 @@ export const PhotosActivities = () => {
         <Typography sx={theme.title}>{t(`titleActivities.${title}`)}</Typography>
         <Typography variant="p" sx={theme.paragraph}></Typography>
       </Box>
-      <Masonry sx={theme.contentMasonry}>
+      <Masonry columns={{ xs: 2, sm: 4 }} sx={theme.contentMasonry}>
         {activity.map(({ imgSrc, id, alt }) => (
           <div key={id}>
             <Label></Label>

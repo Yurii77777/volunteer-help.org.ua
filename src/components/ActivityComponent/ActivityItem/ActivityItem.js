@@ -17,11 +17,8 @@ export const ActivityItem = ({ title, firstImg, secondImg, alt, id }) => {
           <Typography variant="body" sx={theme.title}>
             {t(`slider.countries.${title}`)}
           </Typography>
-          <Button
-           sx={theme.btn}
-           component={RouterLink}
-           to={`photos/${id}`}
-           >{t('slider.learn_more')}
+          <Button sx={theme.btn} component={RouterLink} to={`photos/${id}`}>
+            {t('slider.learn_more')}
           </Button>
         </Box>
         <Box sx={theme.content}>
@@ -36,5 +33,5 @@ ActivityItem.propTypes = {
   title: PropTypes.string.isRequired,
   firstImg: PropTypes.string.isRequired,
   secondImg: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  alt: PropTypes.string,
 };
