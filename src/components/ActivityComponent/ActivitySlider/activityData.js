@@ -111,4 +111,29 @@ export const activityData = [
       },
     ],
   },
+  {
+    id: 2,
+    activity: 'Turkey',
+    title: 'titleTurkey',
+    img: [
+      {
+        id: 0,
+        imgSrc: images('./turkey/Turkey_1.webp'),
+        alt: 'Роздача книг в Туреччині',
+        isSliderImg: true,
+      },
+      {
+        id: 1,
+        imgSrc: images('./turkey/Turkey_2.webp'),
+        alt: 'Роздача книг в Туреччині',
+        isSliderImg: true,
+      },
+      {
+        id: 2,
+        imgSrc: images('./turkey/Turkey_3.webp'),
+        alt: 'Роздача книг в Туреччині',
+        isSliderImg: false,
+      },
+    ],
+  },
 ];

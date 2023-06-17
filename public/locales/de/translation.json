@@ -55,7 +55,8 @@
     "title": "Aktivitäten unserer Organisation",
     "countries": {
       "Poland": "Polen",
-      "Slovakia": "Slowakei"
+      "Slovakia": "Slowakei",
+      "Turkey": "Truthahn"
     },
     "learn_more": "Lern mehr",
     "img_alt_Poland": "Freiwilligenhilfe in der Polen",
@@ -63,7 +64,8 @@
   },
   "titleActivities": {
     "titlePl": "Aktivitäten unserer Organisation in der Polen",
-    "titleSk": "Aktivitäten unserer Organisation in der Slowakei"
+    "titleSk": "Aktivitäten unserer Organisation in der Slowakei",
+    "titleTurkey": "Aktivitäten unserer Organisation in der Truthahn"
   },
   "footer": {
     "thanks": "Danke für Ihre Unterstützung!",

@@ -61,6 +61,7 @@ export const activities = [
   'promote',
   'assistance',
 ];
+
 export const mapPoints = [
   {
     id: 1,

@@ -55,7 +55,8 @@
     "title": "Activities of our organization",
     "countries": {
       "Poland": "Poland",
-      "Slovakia": "Slovakia"
+      "Slovakia": "Slovakia",
+      "Turkey": "Turkey"
     },
     "learn_more": "Learn more",
     "img_alt_Poland": "Volunteering in Poland",
@@ -63,7 +64,8 @@
   },
   "titleActivities": {
     "titlePl": "Activities of our organization in Poland",
-    "titleSk": "Activities of our organization in Slovakia"
+    "titleSk": "Activities of our organization in Slovakia",
+    "titleTurkey": "Activities of our organization in Turkey"
   },
   "footer": {
     "thanks": "Thank you for your support!",
