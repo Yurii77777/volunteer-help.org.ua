@@ -136,4 +136,53 @@ export const activityData = [
       },
     ],
   },
+  {
+    id: 3,
+    activity: 'Bucha 2023',
+    title: 'titleBucha',
+    img: [
+      {
+        id: 0,
+        imgSrc: images('./bucha2023/bucha-01.webp'),
+        alt: 'Truck with food is coming',
+        isSliderImg: false,
+      },
+      {
+        id: 1,
+        imgSrc: images('./bucha2023/bucha-02.webp'),
+        alt: 'Food',
+        isSliderImg: false,
+      },
+      {
+        id: 2,
+        imgSrc: images('./bucha2023/bucha-03.webp'),
+        alt: 'Food',
+        isSliderImg: true,
+      },
+      {
+        id: 3,
+        imgSrc: images('./bucha2023/bucha-04.webp'),
+        alt: 'Flour',
+        isSliderImg: true,
+      },
+      {
+        id: 4,
+        imgSrc: images('./bucha2023/bucha-05.webp'),
+        alt: 'Food',
+        isSliderImg: false,
+      },
+      {
+        id: 5,
+        imgSrc: images('./bucha2023/bucha-06.webp'),
+        alt: 'Pasta and canned food',
+        isSliderImg: false,
+      },
+      {
+        id: 6,
+        imgSrc: images('./bucha2023/bucha-07.webp'),
+        alt: 'Food in truck',
+        isSliderImg: false,
+      },
+    ],
+  },
 ];

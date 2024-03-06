@@ -56,7 +56,8 @@
     "countries": {
       "Poland": "Poland",
       "Slovakia": "Slovakia",
-      "Turkey": "Turkey"
+      "Turkey": "Turkey",
+      "Bucha": "Bucha 2023"
     },
     "learn_more": "Learn more",
     "img_alt_Poland": "Volunteering in Poland",
@@ -65,7 +66,8 @@
   "titleActivities": {
     "titlePl": "Activities of our organization in Poland",
     "titleSk": "Activities of our organization in Slovakia",
-    "titleTurkey": "Activities of our organization in Turkey"
+    "titleTurkey": "Activities of our organization in Turkey",
+    "titleBucha": "Help for Bucha 2023"
   },
   "footer": {
     "thanks": "Thank you for your support!",
