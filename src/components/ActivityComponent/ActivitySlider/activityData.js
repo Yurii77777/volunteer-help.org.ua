@@ -185,4 +185,35 @@ export const activityData = [
       },
     ],
   },
+  {
+    id:4,
+    activity: 'Svichado',
+    title: 'titleSvichado',
+    img: [
+      {
+        id: 0,
+        imgSrc: images('./svichado/svichado-01.webp'),
+        alt: 'New terminal in Svichado',
+        isSliderImg: true,
+      },
+      {
+        id: 1,
+        imgSrc: images('./svichado/svichado-03.webp'),
+        alt: 'Svichado logo on the box for books',
+        isSliderImg: false,
+      },
+      {
+        id: 2,
+        imgSrc: images('./svichado/svichado-04.webp'),
+        alt: 'Our volunteers in Svichado',
+        isSliderImg: true,
+      },
+      {
+        id: 3,
+        imgSrc: images('./svichado/svichado-05.webp'),
+        alt: 'Information stand in Svichado',
+        isSliderImg: false,
+      },
+    ]
+  }
 ];

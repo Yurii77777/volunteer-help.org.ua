@@ -57,7 +57,8 @@
       "Poland": "Polen",
       "Slovakia": "Slowakei",
       "Turkey": "Truthahn",
-      "Bucha": "Bucha 2023"
+      "Bucha 2023": "Bucha 2023",
+      "Svichado": "Zentrales Bibliothekssystem in Svičado 2023"
     },
     "learn_more": "Lern mehr",
     "img_alt_Poland": "Freiwilligenhilfe in der Polen",
@@ -67,7 +68,8 @@
     "titlePl": "Aktivitäten unserer Organisation in der Polen",
     "titleSk": "Aktivitäten unserer Organisation in der Slowakei",
     "titleTurkey": "Aktivitäten unserer Organisation in der Truthahn",
-    "titleBucha": "Hilfe für Bucha 2023"
+    "titleBucha": "Hilfe für Bucha 2023",
+    "titleSvichado":"Zentrales Bibliothekssystem in Svičado 2023"
   },
   "footer": {
     "thanks": "Danke für Ihre Unterstützung!",
