@@ -12,6 +12,7 @@ const filterImagesBySliderFlag = (activityData) => {
 };
 
 const sliderImagesData = filterImagesBySliderFlag(activityData);
+console.log(sliderImagesData);
 
 export const ActivitySlider = () => {
   return (

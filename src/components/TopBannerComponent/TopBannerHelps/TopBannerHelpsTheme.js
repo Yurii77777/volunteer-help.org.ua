@@ -17,16 +17,19 @@ export const theme = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
+    padding: '3px',
   },
   content: {
-    p: 2,
+    p: 2
   },
   title: {
     textTransform: 'uppercase',
     fontWeight: '800',
+    textAlign: 'center',
   },
   subtitle: {
     fontWeight: '600',
+    textAlign: 'center',
   },
   actions: {
     p: 2,
@@ -34,4 +37,7 @@ export const theme = {
     justifyContent: 'center',
     alignItems: 'stretch',
   },
+  actionButton: {
+    textAlign: 'center',
+  }
 };
