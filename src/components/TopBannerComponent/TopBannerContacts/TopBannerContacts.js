@@ -20,7 +20,7 @@ export const TopBannerContacts = () => {
         <Typography variant="h4" sx={theme.contacts_title}>
           {t('top_banner.contacts.contacts_title')}
         </Typography>
-        <Box>
+        <Box sx={theme.contacts_phone_wrapper}>
           {contacts.map(({ id, tel, title }) => {
             return (
               <Link sx={theme.contacts_phone} href={`tel:${tel}`} title={t(`title.${title}`)} key={id}>
