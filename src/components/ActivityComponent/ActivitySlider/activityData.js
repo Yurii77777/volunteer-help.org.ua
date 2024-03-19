@@ -183,10 +183,22 @@ export const activityData = [
         alt: 'Food in truck',
         isSliderImg: false,
       },
+      { id: 7, imgSrc: images('./bucha2023/bucha-08.webp'), alt: 'Boxes with food', isSliderImg: false },
+      { id: 8, imgSrc: images('./bucha2023/bucha-09.webp'), alt: 'Food in truck', isSliderImg: false },
+      {
+        id: 9,
+        imgSrc: images('./bucha2023/bucha-10.webp'),
+        alt: 'Person helps with unloading food',
+        isSliderImg: false,
+      },
+      { id: 10, imgSrc: images('./bucha2023/bucha-11.webp'), alt: 'Food in truck', isSliderImg: false },
+      { id: 11, imgSrc: images('./bucha2023/bucha-12.webp'), alt: 'Food in truck', isSliderImg: false },
+      { id: 12, imgSrc: images('./bucha2023/bucha-13.webp'), alt: 'Food in truck', isSliderImg: false },
+      { id: 13, imgSrc: images('./bucha2023/bucha-14.webp'), alt: 'Food in truck', isSliderImg: false },
     ],
   },
   {
-    id:4,
+    id: 4,
     activity: 'Svichado',
     title: 'titleSvichado',
     img: [
@@ -214,6 +226,6 @@ export const activityData = [
         alt: 'Information stand in Svichado',
         isSliderImg: false,
       },
-    ]
-  }
+    ],
+  },
 ];
