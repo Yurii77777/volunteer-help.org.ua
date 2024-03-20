@@ -157,13 +157,13 @@ export const activityData = [
         id: 2,
         imgSrc: images('./bucha2023/bucha-03.webp'),
         alt: 'Food',
-        isSliderImg: true,
+        isSliderImg: false,
       },
       {
         id: 3,
         imgSrc: images('./bucha2023/bucha-04.webp'),
         alt: 'Flour',
-        isSliderImg: true,
+        isSliderImg: false,
       },
       {
         id: 4,
@@ -181,7 +181,7 @@ export const activityData = [
         id: 6,
         imgSrc: images('./bucha2023/bucha-07.webp'),
         alt: 'Food in truck',
-        isSliderImg: false,
+        isSliderImg: true,
       },
       { id: 7, imgSrc: images('./bucha2023/bucha-08.webp'), alt: 'Boxes with food', isSliderImg: false },
       { id: 8, imgSrc: images('./bucha2023/bucha-09.webp'), alt: 'Food in truck', isSliderImg: false },
@@ -195,6 +195,7 @@ export const activityData = [
       { id: 11, imgSrc: images('./bucha2023/bucha-12.webp'), alt: 'Food in truck', isSliderImg: false },
       { id: 12, imgSrc: images('./bucha2023/bucha-13.webp'), alt: 'Food in truck', isSliderImg: false },
       { id: 13, imgSrc: images('./bucha2023/bucha-14.webp'), alt: 'Food in truck', isSliderImg: false },
+      { id: 14, imgSrc: images('./bucha2023/bucha-15.webp'), alt: 'Acknowledgments', isSliderImg: true },
     ],
   },
   {
