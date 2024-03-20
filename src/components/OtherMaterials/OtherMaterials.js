@@ -51,9 +51,7 @@ export const OtherMaterials = () => {
           aria-describedby="image-modal-description"
           closeAfterTransition
           BackdropComponent={Backdrop}
-          BackdropProps={{
-            timeout: 500,
-          }}>
+          >
           <Fade in={!!selectedImage}>
             <Box
               onClick={handleCloseModal}
