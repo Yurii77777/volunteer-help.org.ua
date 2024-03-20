@@ -23,7 +23,7 @@ export const OtherMaterials = () => {
     <Box sx={theme.section}>
       <Container sx={theme.container}>
         <Typography variant="h4" sx={theme.title}>
-          Інші матеріали
+          {t('otherMaterials.title')}
         </Typography>
         <Masonry columns={{ xs: 2, sm: 4 }} sx={theme.contentMasonry}>
           {otherMaterials.map(({ id, imgSrc, alt }) => {
