@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Box, Container, Typography, List, ListItem, Modal, Backdrop, Fade } from '@mui/material';
+import { Box, Container, Typography, ListItem, Modal, Backdrop, Fade } from '@mui/material';
 import Masonry from '@mui/lab/Masonry';
 import { otherMaterials } from '../../constants/constants';
 
@@ -56,6 +56,7 @@ export const OtherMaterials = () => {
           }}>
           <Fade in={!!selectedImage}>
             <Box
+              onClick={handleCloseModal}
               sx={{
                 position: 'absolute',
                 top: '50%',
@@ -65,7 +66,7 @@ export const OtherMaterials = () => {
                 boxShadow: 24,
                 p: 4,
               }}>
-              <img src={selectedImage} alt="Selected" style={{ maxWidth: '80vw', maxHeight: '80vh' }} />
+              <img src={selectedImage} alt="" style={{ maxWidth: '80vw', maxHeight: '80vh' }} />
             </Box>
           </Fade>
         </Modal>
