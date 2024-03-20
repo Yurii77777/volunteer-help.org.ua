@@ -18,7 +18,6 @@ const theme = {
     flexWrap: 'wrap',
   },
   contentMasonry: {
-   spacing: '2',
    maxWidth: '1200px',
    margin: '0 auto',
  },
