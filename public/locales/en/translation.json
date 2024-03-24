@@ -71,6 +71,9 @@
     "titleBucha": "Help for Bucha 2023",
     "titleSvichado":"Centralized library system of Svichado 2023"
   },
+  "otherMaterials": {
+    "title": "Other materials"
+  },
   "footer": {
     "thanks": "Thank you for your support!",
     "madein": "Developed in Ukraine"

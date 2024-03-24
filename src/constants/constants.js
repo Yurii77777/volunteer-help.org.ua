@@ -1,3 +1,5 @@
+const images = require.context('../assets/images/otherMaterials', true);
+
 export const contacts = [
   {
     id: 1,
@@ -72,5 +74,43 @@ export const mapPoints = [
     service: 'прийом та видача',
     email: 'child.help.book@gmail.com',
     phones: ['+38 044 209 53 02', '+38 098 683 85 21', '+38 098 306 84 84', '+38 063 499 37 69'],
+  },
+];
+
+export const otherMaterials = [
+  {
+    id: 0,
+    imgSrc: images('./noBordersBooks-01.webp'),
+    alt: 'Books without borders'
+  },
+  {
+    id: 1,
+    imgSrc: images('./noBordersBooks-02.webp'),
+    alt: 'Books without borders'
+  },
+  {
+    id: 2,
+    imgSrc: images('./poster1.webp'),
+    alt: 'Poster about book collection points'
+  },
+  {
+    id: 3,
+    imgSrc: images('./poster2.webp'),
+    alt: 'Poster about book collection points'
+  },
+  {
+    id: 4,
+    imgSrc: images('./poster3.webp'),
+    alt: 'Poster about book collection points'
+  },
+  {
+    id: 5,
+    imgSrc: images('./toCulture-01.webp'),
+    alt: 'Letter from the Department of Culture'
+  },
+  {
+    id: 6,
+    imgSrc: images('./toCulture-02.webp'),
+    alt: 'Letter from the Department of Culture'
   },
 ];
